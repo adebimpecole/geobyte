@@ -1,0 +1,13 @@
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /location/{document=**} {
+      allow read, write;
+    }
+    match /geouser/{document=**} {
+      allow read, write;
+    }
+    match /optimized/{document=**} {
+      allow read, write;
+    }
+  }
+}

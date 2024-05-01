@@ -1,0 +1,9 @@
+#root {
+  width: 100%;
+  height: 100%;
+  /* color: #db1010;  */
+}
+
+.mapboxgl-ctrl-attrib-inner {
+  display: none;
+}
